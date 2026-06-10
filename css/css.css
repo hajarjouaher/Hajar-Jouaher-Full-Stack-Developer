@@ -496,11 +496,16 @@ body{
 }
 
 @media(max-width:600px){
-
     .language-switch{
-
-        display:none;
+        display:flex;
+        gap:8px;
     }
+
+    .language-switch button{
+        padding:6px 10px;
+        font-size:12px;
+    }
+}
 
     .hero-text h2{
 
