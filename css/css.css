@@ -30,7 +30,6 @@ body{
 
 /* LOADER */
 
-
 #loader{
 
     position:fixed;
@@ -161,8 +160,26 @@ body{
     gap:10px;
 }
 
+.language-switch button{
 
-.language-switch{ display:flex; gap:10px; } .language-switch button{ border:none; padding:8px 14px; border-radius:8px; background:var(--card); color:var(--white); cursor:pointer; transition:0.3s; } .language-switch button:hover{ background:var(--blue);
+    border:none;
+
+    padding:8px 14px;
+
+    border-radius:8px;
+
+    background:var(--card);
+    color:var(--white);
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.language-switch button:hover{
+
+    background:var(--blue);
+}
 
 /* BURGER */
 
@@ -479,16 +496,11 @@ body{
 }
 
 @media(max-width:600px){
-    .language-switch{
-        display:flex;
-        gap:8px;
-    }
 
-    .language-switch button{
-        padding:6px 10px;
-        font-size:12px;
+    .language-switch{
+
+        display:none;
     }
-}
 
     .hero-text h2{
 
