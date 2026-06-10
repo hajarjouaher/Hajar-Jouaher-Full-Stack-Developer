@@ -30,6 +30,7 @@ const jobTitle = document.getElementById("job-title");
 const description = document.getElementById("description");
 
 
+
 // ================= ENGLISH =================
 enBtn.addEventListener("click", () => {
 
