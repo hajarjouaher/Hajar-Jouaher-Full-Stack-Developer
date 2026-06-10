@@ -1393,15 +1393,14 @@ body{
 /* MOBILE */
 
 @media(max-width:600px){
-
-    .contact{
-
-        padding:90px 6%;
+    .language-switch{
+        display:flex;
+        gap:8px;
     }
 
-    .contact-form{
-
-        padding:25px;
+    .language-switch button{
+        padding:6px 10px;
+        font-size:12px;
     }
 }
 /* FOOTER */
